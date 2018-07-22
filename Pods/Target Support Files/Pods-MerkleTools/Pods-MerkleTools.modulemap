@@ -1,0 +1,6 @@
+module Pods_MerkleTools {
+  umbrella header "Pods-MerkleTools-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52FC87B54BB10ED96250322E /* libPods-MerkleTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A059D847E7CC5515B4771F /* libPods-MerkleTools.a */; };
+		81CFF10C2104EA5800E1DA49 /* MerkleTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81CFF1022104EA5800E1DA49 /* MerkleTools.framework */; };
+		81CFF1112104EA5800E1DA49 /* MerkleToolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CFF1102104EA5800E1DA49 /* MerkleToolsTests.swift */; };
+		81CFF1132104EA5900E1DA49 /* MerkleTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 81CFF1052104EA5800E1DA49 /* MerkleTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81DFB3F02104EB7E0011DC85 /* Hashing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DFB3EF2104EB7E0011DC85 /* Hashing.swift */; };
+		81DFB3F22104EC410011DC85 /* PaddableTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DFB3F12104EC410011DC85 /* PaddableTree.swift */; };
+		81DFB3F42104F8D00011DC85 /* SimpleContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DFB3F32104F8D00011DC85 /* SimpleContent.swift */; };
+		CAFD947A73D45AC11424FE69 /* libPods-MerkleToolsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A3287D2B6E5B08ED622758C3 /* libPods-MerkleToolsTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		81CFF10D2104EA5800E1DA49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81CFF0F92104EA5800E1DA49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81CFF1012104EA5800E1DA49;
+			remoteInfo = MerkleTools;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1BFA104E3A5FC0B3BB4EE540 /* Pods-MerkleToolsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MerkleToolsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MerkleToolsTests/Pods-MerkleToolsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		56D30B0D77132171CCC0032F /* Pods-MerkleToolsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MerkleToolsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MerkleToolsTests/Pods-MerkleToolsTests.release.xcconfig"; sourceTree = "<group>"; };
+		81CFF1022104EA5800E1DA49 /* MerkleTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MerkleTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81CFF1052104EA5800E1DA49 /* MerkleTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MerkleTools.h; sourceTree = "<group>"; };
+		81CFF1062104EA5800E1DA49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81CFF10B2104EA5800E1DA49 /* MerkleToolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MerkleToolsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81CFF1102104EA5800E1DA49 /* MerkleToolsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MerkleToolsTests.swift; sourceTree = "<group>"; };
+		81CFF1122104EA5900E1DA49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81DFB3EF2104EB7E0011DC85 /* Hashing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hashing.swift; sourceTree = "<group>"; };
+		81DFB3F12104EC410011DC85 /* PaddableTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddableTree.swift; sourceTree = "<group>"; };
+		81DFB3F32104F8D00011DC85 /* SimpleContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleContent.swift; sourceTree = "<group>"; };
+		A2A059D847E7CC5515B4771F /* libPods-MerkleTools.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MerkleTools.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3287D2B6E5B08ED622758C3 /* libPods-MerkleToolsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MerkleToolsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BACD42AB95AB649084E3DDED /* Pods-MerkleTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MerkleTools.release.xcconfig"; path = "Pods/Target Support Files/Pods-MerkleTools/Pods-MerkleTools.release.xcconfig"; sourceTree = "<group>"; };
+		E6B58D83B3E4101D5AF69DC2 /* Pods-MerkleTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MerkleTools.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MerkleTools/Pods-MerkleTools.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81CFF0FE2104EA5800E1DA49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52FC87B54BB10ED96250322E /* libPods-MerkleTools.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81CFF1082104EA5800E1DA49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81CFF10C2104EA5800E1DA49 /* MerkleTools.framework in Frameworks */,
+				CAFD947A73D45AC11424FE69 /* libPods-MerkleToolsTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		628260C5CB9B4B170B202026 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E6B58D83B3E4101D5AF69DC2 /* Pods-MerkleTools.debug.xcconfig */,
+				BACD42AB95AB649084E3DDED /* Pods-MerkleTools.release.xcconfig */,
+				1BFA104E3A5FC0B3BB4EE540 /* Pods-MerkleToolsTests.debug.xcconfig */,
+				56D30B0D77132171CCC0032F /* Pods-MerkleToolsTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		81CFF0F82104EA5800E1DA49 = {
+			isa = PBXGroup;
+			children = (
+				81CFF1042104EA5800E1DA49 /* MerkleTools */,
+				81CFF10F2104EA5800E1DA49 /* MerkleToolsTests */,
+				81CFF1032104EA5800E1DA49 /* Products */,
+				628260C5CB9B4B170B202026 /* Pods */,
+				F5223028BDB5CC88405FFDED /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		81CFF1032104EA5800E1DA49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81CFF1022104EA5800E1DA49 /* MerkleTools.framework */,
+				81CFF10B2104EA5800E1DA49 /* MerkleToolsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81CFF1042104EA5800E1DA49 /* MerkleTools */ = {
+			isa = PBXGroup;
+			children = (
+				81DFB3EE2104EB6B0011DC85 /* Utils */,
+				81DFB3ED2104EB640011DC85 /* PaddableTree */,
+				81CFF1052104EA5800E1DA49 /* MerkleTools.h */,
+				81CFF1062104EA5800E1DA49 /* Info.plist */,
+				81DFB3F32104F8D00011DC85 /* SimpleContent.swift */,
+			);
+			path = MerkleTools;
+			sourceTree = "<group>";
+		};
+		81CFF10F2104EA5800E1DA49 /* MerkleToolsTests */ = {
+			isa = PBXGroup;
+			children = (
+				81CFF1102104EA5800E1DA49 /* MerkleToolsTests.swift */,
+				81CFF1122104EA5900E1DA49 /* Info.plist */,
+			);
+			path = MerkleToolsTests;
+			sourceTree = "<group>";
+		};
+		81DFB3ED2104EB640011DC85 /* PaddableTree */ = {
+			isa = PBXGroup;
+			children = (
+				81DFB3F12104EC410011DC85 /* PaddableTree.swift */,
+			);
+			path = PaddableTree;
+			sourceTree = "<group>";
+		};
+		81DFB3EE2104EB6B0011DC85 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				81DFB3EF2104EB7E0011DC85 /* Hashing.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		F5223028BDB5CC88405FFDED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2A059D847E7CC5515B4771F /* libPods-MerkleTools.a */,
+				A3287D2B6E5B08ED622758C3 /* libPods-MerkleToolsTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		81CFF0FF2104EA5800E1DA49 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81CFF1132104EA5900E1DA49 /* MerkleTools.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		81CFF1012104EA5800E1DA49 /* MerkleTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81CFF1162104EA5900E1DA49 /* Build configuration list for PBXNativeTarget "MerkleTools" */;
+			buildPhases = (
+				17FF580961B2CCB6A7E324B9 /* [CP] Check Pods Manifest.lock */,
+				81CFF0FD2104EA5800E1DA49 /* Sources */,
+				81CFF0FE2104EA5800E1DA49 /* Frameworks */,
+				81CFF0FF2104EA5800E1DA49 /* Headers */,
+				81CFF1002104EA5800E1DA49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MerkleTools;
+			productName = MerkleTools;
+			productReference = 81CFF1022104EA5800E1DA49 /* MerkleTools.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		81CFF10A2104EA5800E1DA49 /* MerkleToolsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81CFF1192104EA5900E1DA49 /* Build configuration list for PBXNativeTarget "MerkleToolsTests" */;
+			buildPhases = (
+				83363D561510CE1FB19A3998 /* [CP] Check Pods Manifest.lock */,
+				81CFF1072104EA5800E1DA49 /* Sources */,
+				81CFF1082104EA5800E1DA49 /* Frameworks */,
+				81CFF1092104EA5800E1DA49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81CFF10E2104EA5800E1DA49 /* PBXTargetDependency */,
+			);
+			name = MerkleToolsTests;
+			productName = MerkleToolsTests;
+			productReference = 81CFF10B2104EA5800E1DA49 /* MerkleToolsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81CFF0F92104EA5800E1DA49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Alexander Vlasov";
+				TargetAttributes = {
+					81CFF1012104EA5800E1DA49 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
+					};
+					81CFF10A2104EA5800E1DA49 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 81CFF0FC2104EA5800E1DA49 /* Build configuration list for PBXProject "MerkleTools" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 81CFF0F82104EA5800E1DA49;
+			productRefGroup = 81CFF1032104EA5800E1DA49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81CFF1012104EA5800E1DA49 /* MerkleTools */,
+				81CFF10A2104EA5800E1DA49 /* MerkleToolsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81CFF1002104EA5800E1DA49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81CFF1092104EA5800E1DA49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17FF580961B2CCB6A7E324B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MerkleTools-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83363D561510CE1FB19A3998 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MerkleToolsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81CFF0FD2104EA5800E1DA49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81DFB3F42104F8D00011DC85 /* SimpleContent.swift in Sources */,
+				81DFB3F22104EC410011DC85 /* PaddableTree.swift in Sources */,
+				81DFB3F02104EB7E0011DC85 /* Hashing.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81CFF1072104EA5800E1DA49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81CFF1112104EA5800E1DA49 /* MerkleToolsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		81CFF10E2104EA5800E1DA49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81CFF1012104EA5800E1DA49 /* MerkleTools */;
+			targetProxy = 81CFF10D2104EA5800E1DA49 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		81CFF1142104EA5900E1DA49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		81CFF1152104EA5900E1DA49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		81CFF1172104EA5900E1DA49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6B58D83B3E4101D5AF69DC2 /* Pods-MerkleTools.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 62V9CKQN89;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MerkleTools/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.bankexfoundation.MerkleTools;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		81CFF1182104EA5900E1DA49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BACD42AB95AB649084E3DDED /* Pods-MerkleTools.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 62V9CKQN89;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MerkleTools/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.bankexfoundation.MerkleTools;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		81CFF11A2104EA5900E1DA49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BFA104E3A5FC0B3BB4EE540 /* Pods-MerkleToolsTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62V9CKQN89;
+				INFOPLIST_FILE = MerkleToolsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.bankexfoundation.MerkleToolsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		81CFF11B2104EA5900E1DA49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56D30B0D77132171CCC0032F /* Pods-MerkleToolsTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62V9CKQN89;
+				INFOPLIST_FILE = MerkleToolsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.bankexfoundation.MerkleToolsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81CFF0FC2104EA5800E1DA49 /* Build configuration list for PBXProject "MerkleTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81CFF1142104EA5900E1DA49 /* Debug */,
+				81CFF1152104EA5900E1DA49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81CFF1162104EA5900E1DA49 /* Build configuration list for PBXNativeTarget "MerkleTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81CFF1172104EA5900E1DA49 /* Debug */,
+				81CFF1182104EA5900E1DA49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81CFF1192104EA5900E1DA49 /* Build configuration list for PBXNativeTarget "MerkleToolsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81CFF11A2104EA5900E1DA49 /* Debug */,
+				81CFF11B2104EA5900E1DA49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81CFF0F92104EA5800E1DA49 /* Project object */;
+}
